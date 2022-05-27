@@ -1,0 +1,995 @@
+.header{
+    display: flex;
+     justify-content: center; 
+    flex-direction: row;
+    align-items: center;
+}
+
+#searchbox{
+    /* Rectangle */
+
+position: absolute;
+width: 360px;
+height: 42px;
+left: 540px;
+top: 16px;
+
+background: #F2F2F2;
+border-radius: 21px;
+
+ 
+}
+
+::placeholder{
+    padding: 12px 50px 11px 68px;
+}
+
+.login{ 
+/* Create account. It’s free! */
+
+position: absolute;
+top: 27px;
+left: 1201px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 21px;
+
+
+color: #2E2E2E;
+
+
+
+
+}
+
+span{
+    color: blue;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+
+    left: 21px;
+    top: 16px;
+    
+    border-radius: 21px;
+    
+     
+}
+
+.maincontent {
+
+position: absolute;
+width: 1440px;
+height: 440px;
+left: 0px;
+top: 72px;
+
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%);
+
+    
+}
+
+.contenttext{
+    position: absolute;
+    width:378px;
+    height: 47px;
+    width:378px;
+    top:258px;
+    left: 200px;
+    color: white;
+    font-size: 36px;
+
+}
+
+
+.heading{
+    
+position: absolute;
+width: 327px;
+height: 23px;
+left: 200px;
+top: 309px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+
+
+}
+
+.navbar{
+    position: absolute;
+width: 125px;
+top: 552px;
+left: 200px;
+border-radius: 4px;
+}
+
+.btn{
+   
+
+position: absolute;
+left: 1070px;
+width: 155px;
+bottom: 20px;
+height: 46px;
+/* top: 55px; */
+padding: auto 38px  12px ;
+}
+
+.btn-light{
+position: absolute;
+width: 155px;
+height: 46px;
+bottom: 20px;
+left: 906px;
+border-color: #EDEEF0;
+background: #EDEEF0;
+border-radius: 4px;
+}
+
+.locationn{
+position: absolute;
+width: 80px;
+height: 18px;
+left: 1000px;
+top: 100px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+
+.LocationOn{
+    position: absolute;
+width: 80px;
+height: 18px;
+left: 975px;
+top: 95px;
+}
+
+.pencil{
+    position: absolute;
+    width: 80px;
+    height: 18px;
+    left: 190px;
+    bottom: 0px; 
+}
+
+.tagline{
+    /* Your location will help us serve better and extend a personalised experience. */
+
+position: absolute;
+width: 220px;
+height: 32px;
+left: 1000px;
+top: 167px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.5;
+}
+.navbar-brand{
+    background-color: white;
+    border-color: white;
+    border: #FFFFFF;
+}
+.info{
+/* Vector */
+
+position: absolute;
+width: 220px;
+height: 32px;
+left: 975px;
+top: 167px;
+color: #000000;
+background-color: white;
+}
+
+.hr{
+    /* Line */
+
+position: absolute;
+width: 1240px;
+height: 0px;
+left: 0px;
+top: 30px;
+
+border: 1px solid #E0E0E0;
+
+}
+
+.line{
+    /* Line 3 */
+
+position: absolute;
+width: 243px;
+height: 0px;
+left: 977px;
+top: 105px;
+
+border: 0.4px solid #B8B8B8;
+
+}
+.job{
+/* Rectangle 4 */
+
+position: absolute;
+width: 692px;
+height: 269px;
+left: 200px;
+top: 2110px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+
+}
+
+.meetup{
+    /* Rectangle 4 */
+
+position: absolute;
+width: 692px;
+height: 490px;
+left: 200px;
+top: 1604px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+
+}
+
+.edu{
+
+position: absolute;
+width: 692px;
+height: 472px;
+left: 200px;
+top: 1116px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+
+}
+
+.article{
+
+display: flex;
+flex-direction: column;
+position: absolute;
+width: 692px;
+height: 472px;
+left: 200px;
+top: 628px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+border-radius: 4px;
+
+}
+
+
+
+.pic{
+    /* Rectangle 5 */
+
+position: absolute;
+width: 692px;
+height: 220px;
+border-radius: 4px 4px 0px 0px;
+
+}
+
+.text1{
+
+/* ✍️ Article */
+
+position: absolute;
+width: 87px;
+height: 25px;
+top: 260px;
+left:20px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+.text2{
+    /* What if famous brands had regular fonts? Meet RegulaBrands! */
+
+position: absolute;
+width: 500px;
+height: 60px;
+left: 20px;
+top: 291px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.17%;
+/* or 30px */
+
+color: #000000;
+
+
+}
+
+.MoreHorizIcon{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 625px;
+    top: 286px;
+}
+
+.text3{
+    
+
+position: absolute;
+width: 652px;
+height: 25px;
+left: 20px;
+top: 355px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 134.17%;
+/* or 25px */
+
+color: #5C5C5C;
+
+
+}
+
+.text4{
+    /* Sarthak Kamra */
+
+position: absolute;
+width: 125px;
+height: 24px;
+left: 75px;
+top: 404px;
+
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.text5{
+    /* 1.4k views */
+
+position: absolute;
+width: 69px;
+height: 18px;
+left: 521px;
+top: 404px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+
+
+}
+
+.ShareIcon{
+    /* Rectangle 4.1 */
+
+position: absolute;
+left: 631px;
+top: 400px;
+
+background: #EDEEF0;
+border-radius:  2px black;
+
+}
+
+.pp1{
+    /* Rectangle 3 */
+
+position: absolute;
+width: 48px;
+height: 48px;
+left: 15px;
+top: 392px; 
+
+border-radius: 24px;
+
+}
+
+.pic2{
+position: absolute;
+width: 692px;
+height: 220px;
+
+
+border-radius: 4px 4px 0px 0px;
+
+}
+
+.heading2{
+    /*  Education */
+
+position: absolute;
+width: 105px;
+height: 25px;
+left: 20px;
+top: 256px;
+
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+.MoreHorizIcon2{
+    position: absolute;
+width: 105px;
+height: 25px;
+left: 625px;
+top: 290px;
+
+}
+
+.title2{
+    /* Tax Benefits for Investment under National Pension Scheme launched by Government */
+
+position: absolute;
+width: 600px;
+height: 60px;
+left: 20px;
+top: 291px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.55%;
+/* or 30px */
+
+color: #000000;
+}
+
+.text{
+    /* I’ve worked in UX for the better part of a decade. From now on, I plan to rei… */
+
+position: absolute;
+width: 652px;
+height: 25px;
+left: 20px;
+top: 363px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 134.17%;
+/* or 25px */
+
+color: #5C5C5C;
+
+
+}
+
+.name2{
+/* Sarah West */
+
+position: absolute;
+width: 96px;
+height: 24px;
+left: 75px;
+top: 408px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.views2{
+    /* 1.4k views */
+
+position: absolute;
+width: 69px;
+height: 18px;
+left: 521px;
+top: 405px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+
+
+}
+
+.ShareIcon2{
+    /* Rectangle 4.1 */
+
+position: absolute;
+left: 621px;
+top: 402px;
+
+background: #EDEEF0;
+border-radius:  2px ;
+
+
+}
+
+.pp2{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 15px;
+    top: 392px; 
+    
+    border-radius: 24px; 
+}
+
+.heading3{
+    position: absolute;
+width: 105px;
+height: 25px;
+left: 25px;
+top: 248px;
+
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+}
+
+.MoreHorizIcon3{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 625px;
+    top: 288px;
+}
+
+.title3{
+    position: absolute;
+width: 600px;
+height: 60px;
+left: 20px;
+top: 291px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.55%;
+/* or 30px */
+
+color: #000000;
+}
+
+.date{
+   
+
+position: absolute;
+width: 142px;
+height: 20px;
+left: 50px;
+top: 340px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.button{
+    /* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 652px;
+height: 38px;
+left: 20px;
+top: 380px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+border-radius: 8px;
+
+}
+
+span{
+    
+
+color: #E56135;
+
+
+}
+
+.name3{
+    position: absolute;
+width: 96px;
+height: 24px;
+left: 75px;
+top: 438px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+
+}
+
+.pp3{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 15px;
+    top: 426px; 
+    
+    border-radius: 24px; 
+}
+
+.views3{
+    position: absolute;
+width: 69px;
+height: 18px;
+left: 521px;
+top: 438px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+
+}
+
+.ShareIcon3{
+    /* Rectangle 4.1 */
+
+position: absolute;
+left: 621px;
+top: 434px;
+
+background: #EDEEF0;
+border-radius:  2px ;
+
+
+}
+
+
+.location{
+    /* Ahmedabad, India */
+
+position: absolute;
+width: 128px;
+height: 20px;
+left: 300px;
+top: 340px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.heading4{
+    /* 💼️ Job */
+
+position: absolute;
+width: 73px;
+height: 25px;
+left: 20px;
+top: 14px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+
+}
+
+.MoreHorizIcon4{
+    position: absolute;
+    width: 105px;
+    height: 25px;
+    left: 625px;
+    top: 45px;
+}
+
+
+.title4{
+    /* Software Developer */
+
+position: absolute;
+width: 600px;
+height: 30px;
+left: 20px;
+top: 50px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.55%;
+/* identical to box height, or 30px */
+
+color: #000000;
+
+
+}
+
+.textt{
+    /* Innovaccer Analytics Private Ltd. */
+
+position: absolute;
+width: 226px;
+height: 20px;
+left: 44px;
+top: 87px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.name4{
+    /* Joseph Gray */
+
+position: absolute;
+width: 104px;
+height: 24px;
+left: 75px;
+top: 203px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+
+.pp4{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 15px;
+    top: 190px; 
+    
+    border-radius: 24px;   
+}
+
+.location2{
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 320px;
+    top: 87px;
+    
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    color: #000000;
+     
+}
+
+.button2{
+    /* Rectangle 2 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 650px;
+height: 36px;
+left: 22px;
+top: 133px;
+
+background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+border-radius: 10px;
+
+}
+
+.views4{
+    /* 1.4k views */
+
+position: absolute;
+width: 69px;
+height: 18px;
+left: 521px;
+top: 203px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+
+color: #525252;
+
+
+}
+
+.ShareIcon4{
+    /* Rectangle 4.1 */
+
+position: absolute;
+left: 621px;
+top: 200px;
+
+
+background: #EDEEF0;
+border-radius:  2px ;
+
+
+}
+
+.workIcon{
+    position: absolute;
+width: 226px;
+height: 20px;
+left: 18px;
+top: 84px;
+}
+
+.LocationOnIcon{
+    position: absolute;
+    width: 128px;
+    height: 20px;
+    left: 298px;
+    top: 84px;
+}
+
+.TodayIcon{
+    position: absolute;
+width: 142px;
+height: 20px;
+left: 25px;
+top: 335px;
+}
+
+.locationOnIcon{
+    position: absolute;
+width: 128px;
+height: 20px;
+left: 278px;
+top: 335px;
+}
+
+.VisibilityIcon{
+    position: absolute;
+width: 69px;
+height: 18px;
+left: 503px;
+top: 200px;
+
+}
+
+.VisibilityIcon1{
+    position: absolute;
+    width: 69px;
+    height: 18px;
+    left: 505px;
+    top: 435px;
+}
+
+.VisibilityIcon2{
+    position: absolute;
+width: 69px;
+height: 18px;
+left: 505px;
+top: 400px;
+
+}
+
+.VisibilityIcon3{
+    position: absolute;
+width: 69px;
+height: 18px;
+left: 505px;
+top: 402px;
+
+}
+
+.GroupAddIcon{
+    padding-left: 0;
+}
